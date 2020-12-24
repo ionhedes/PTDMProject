@@ -1,5 +1,5 @@
 # PTDMProject
-This is a Face Motion Capture based school project for a Measurements course/
+This is a Face Motion Capture based school project for a Measurements course
 ## Table of contents
 * [General Info](#general-info)
 * [Technologies](#technologies)
