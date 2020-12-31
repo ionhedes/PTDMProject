@@ -21,7 +21,14 @@
 
 // Necessary objects for facemarking;
 cv::Ptr<cv::face::Facemark> facemark = cv::face::createFacemarkLBF();
-cv::face::CParams params("/home/pi/opencv/data/lbpcascades/lbpcascade_frontalface.xml");
+cv::face::CParams params(
+    "/home/pi/opencv/data/lbpcascades/lbpcascade_frontalface.xml",
+    1.2,
+    3,
+    cv::Size(250, 250), // tweak this to remove unwanted small faces randomly appearing
+    cv::Size()
+);
+
 
 void detectLandmarks(cv::Mat &frame)
 {
