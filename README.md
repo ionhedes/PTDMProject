@@ -99,7 +99,11 @@ Angular piece for joining two rods:
 ![Angular joint](https://cdn.discordapp.com/attachments/177419077688623104/796131425077821510/unknown.png)
 
 
-Clam to be screwed to the helmet for holding the rod:
+Clam for:
+* attaching the rods to the helmet (2x);
+* attaching the raspberry case to the rods (2x);
+These cases are screwed onto the helmet, or case respectively.
+
 ![Clam](https://cdn.discordapp.com/attachments/177419077688623104/796132164999053312/unknown.png)
 
 ### Bonus: creating an animated face model using our faces
